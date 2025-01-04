@@ -3,7 +3,7 @@
     --header-height: 3rem;
 
     /****************base color*********************************/
-    --hue-color: 250;
+    --hue-color: 0;
 
     /**************** colors **********************************/
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -342,6 +342,11 @@ img {
 }
 
 .homeTitle {
+    font-size: var(--h2-font-size);
+    line-height: .7;
+    color: var(--text-color);
+}
+.homeTitle1 {
     font-size: var(--big-font-size);
 }
 
@@ -398,7 +403,7 @@ img {
 
 /*********************************************about style *********************/
 .aboutImg {
-    width: 200px;
+    width: 230px!important;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -570,16 +575,16 @@ img {
     width: 80%;
 }
 
-.skillsPhp {
-    width: 90%;
+.skillsJava {
+    width: 80%;
 }
 
-.skillsnode {
+.skillsNode {
+    width: 60%;
+}
+
+.skillsdjango {
     width: 75%;
-}
-
-.skillsFirebase {
-    width: 65%;
 }
 
 .skillsPython {
@@ -1082,13 +1087,13 @@ img {
     .knowContainer{
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 0rem 2.5rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
 
     .knowData{
-        padding-top: 0.8rem;
+        padding: 4rem 0rem ;
     }
 
     .footerContainer{
